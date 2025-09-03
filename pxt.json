@@ -5,7 +5,8 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "servo": "*"
+        "servo": "*",
+        "Lab - Copy": "github:cdkarenholt/kuglelabyrint#1856c7ad70a280e118753867d8b006f109eb3155"
     },
     "files": [
         "main.blocks",

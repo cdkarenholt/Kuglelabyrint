@@ -1,5 +1,9 @@
+/**
+ * Hej
+ */
+// Hej
 pins.setPull(DigitalPin.P8, PinPullMode.PullUp)
-radio.setGroup(69)
+radio.setGroup(70)
 basic.forever(function () {
     if (pins.digitalReadPin(DigitalPin.P8) == 0) {
         music.play(music.tonePlayable(262, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
@@ -21,4 +25,3 @@ basic.forever(function () {
     radio.sendNumber(pins.analogReadPin(AnalogReadWritePin.P1))
     radio.sendValue("", pins.analogReadPin(AnalogReadWritePin.P2))
 })
-// Hej
