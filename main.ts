@@ -21,3 +21,4 @@ basic.forever(function () {
     radio.sendNumber(pins.analogReadPin(AnalogReadWritePin.P1))
     radio.sendValue("", pins.analogReadPin(AnalogReadWritePin.P2))
 })
+// Hej
